@@ -31,11 +31,12 @@ interface Song {
 const songs: Song[] = [
   {
     id: 1,
-    title: "Forest Lullaby",
-    artist: "Lesfm",
-    genre: "Ambient",
-    url: "https://cdn.pixabay.com/download/audio/2022/01/18/audio_d0a13f69d2.mp3",
-    coverArt: "https://images.unsplash.com/photo-1616356607338-fd87169ecf1a?w=800&auto=format&fit=crop",
+    title: "Chill Jazz",
+    artist: "Sonic Pi",
+    genre: "Jazz",
+    url: "chill_jazz.wav",
+    coverArt:
+      "https://images.unsplash.com/photo-1616356607338-fd87169ecf1a?w=800&auto=format&fit=crop",
   },
   {
     id: 2,
@@ -43,7 +44,8 @@ const songs: Song[] = [
     artist: "Zen Sounds",
     genre: "Nature",
     url: "https://cdn.pixabay.com/download/audio/2022/03/09/audio_c8c8a73467.mp3",
-    coverArt: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop",
+    coverArt:
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop",
   },
   {
     id: 3,
@@ -51,7 +53,8 @@ const songs: Song[] = [
     artist: "Olexy",
     genre: "Lo-fi",
     url: "https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3",
-    coverArt: "https://images.unsplash.com/photo-1517483000871-1dbf64a6e1c6?w=800&auto=format&fit=crop",
+    coverArt:
+      "https://images.unsplash.com/photo-1517483000871-1dbf64a6e1c6?w=800&auto=format&fit=crop",
   },
   {
     id: 4,
@@ -59,7 +62,8 @@ const songs: Song[] = [
     artist: "AudioCoffee",
     genre: "Ambient",
     url: "https://cdn.pixabay.com/download/audio/2023/05/15/audio_7b8d0e44d8.mp3",
-    coverArt: "https://images.unsplash.com/photo-1520690214124-2405c5217036?w=800&auto=format&fit=crop",
+    coverArt:
+      "https://images.unsplash.com/photo-1520690214124-2405c5217036?w=800&auto=format&fit=crop",
   },
   {
     id: 5,
@@ -67,7 +71,8 @@ const songs: Song[] = [
     artist: "SergeQuadrado",
     genre: "Piano",
     url: "https://cdn.pixabay.com/download/audio/2022/11/22/audio_febc7a1d75.mp3",
-    coverArt: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&auto=format&fit=crop",
+    coverArt:
+      "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&auto=format&fit=crop",
   },
   {
     id: 6,
@@ -75,8 +80,9 @@ const songs: Song[] = [
     artist: "Ambient Labs",
     genre: "Nature",
     url: "https://cdn.pixabay.com/download/audio/2022/10/25/audio_347289021d.mp3",
-    coverArt: "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&auto=format&fit=crop",
-  }
+    coverArt:
+      "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&auto=format&fit=crop",
+  },
 ];
 
 function formatTime(seconds: number): string {

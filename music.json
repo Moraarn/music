@@ -1,0 +1,70 @@
+{
+  "songs": [
+    {
+      "mood": "Happy",
+      "genre": "EDM",
+      "duration": "1 minute",
+      "code": "use_bpm 128\nuse_synth :tb303\n4.times do\n  play :e5, release: 0.5\n  sleep 0.5\n  play :g5, release: 0.5\n  sleep 0.5\nend\nin_thread do\n  8.times do\n    play :b5, release: 0.3\n    sleep 0.25\n    play :d6, release: 0.3\n    sleep 0.25\n  end\nend"
+    },
+    {
+      "mood": "Chill",
+      "genre": "Jazz",
+      "duration": "1 minute",
+      "code": "use_bpm 80\nuse_synth :piano\nin_thread do\n  6.times do\n    play :c4, release: 2\n    sleep 2\n    play :e4, release: 2\n    sleep 2\n    play :g4, release: 3\n    sleep 3\n  end\nend\nin_thread do\n  3.times do\n    play :f4, release: 2\n    sleep 2\n    play :a4, release: 3\n    sleep 3\n  end\nend"
+    },
+    {
+      "mood": "Energetic",
+      "genre": "EDM",
+      "duration": "1 minute",
+      "code": "use_bpm 140\nuse_synth :dsaw\n4.times do\n  play :c5, release: 0.2\n  sleep 0.2\n  play :e5, release: 0.2\n  sleep 0.2\nend\nin_thread do\n  8.times do\n    play :g5, release: 0.15\n    sleep 0.15\n    play :b5, release: 0.15\n    sleep 0.15\n  end\nend"
+    },
+    {
+      "mood": "Happy",
+      "genre": "Pop",
+      "duration": "1 minute",
+      "code": "use_bpm 120\nuse_synth :blade\n4.times do\n  play :g4, release: 0.5\n  sleep 0.5\n  play :b4, release: 0.5\n  sleep 0.5\nend\nin_thread do\n  6.times do\n    play :e5, release: 0.3\n    sleep 0.25\n    play :g5, release: 0.3\n    sleep 0.25\n  end\nend"
+    },
+    {
+      "mood": "Relaxed",
+      "genre": "Classical",
+      "duration": "1 minute",
+      "code": "use_bpm 60\nuse_synth :piano\nin_thread do\n  3.times do\n    play :c4, release: 4\n    sleep 4\n    play :e4, release: 4\n    sleep 4\n    play :g4, release: 4\n    sleep 4\n  end\nend\nin_thread do\n  2.times do\n    play :f4, release: 5\n    sleep 5\n    play :a4, release: 5\n    sleep 5\n  end\nend"
+    },
+    {
+      "mood": "Energetic",
+      "genre": "Rock",
+      "duration": "1 minute",
+      "code": "use_bpm 180\nuse_synth :fm\n4.times do\n  play :g4, release: 0.1\n  sleep 0.25\n  play :e4, release: 0.1\n  sleep 0.25\nend\nin_thread do\n  6.times do\n    play :d5, release: 0.2\n    sleep 0.2\n    play :f5, release: 0.2\n    sleep 0.2\n  end\nend"
+    },
+    {
+      "mood": "Happy",
+      "genre": "Funk",
+      "duration": "1 minute",
+      "code": "use_bpm 100\nuse_synth :pluck\nin_thread do\n  5.times do\n    play :d4, release: 0.3\n    sleep 0.5\n    play :g4, release: 0.3\n    sleep 0.5\n  end\nend\nin_thread do\n  6.times do\n    play :b4, release: 0.25\n    sleep 0.25\n    play :d5, release: 0.25\n    sleep 0.25\n  end\nend"
+    },
+    {
+      "mood": "Relaxed",
+      "genre": "Ambient",
+      "duration": "1 minute",
+      "code": "use_bpm 50\nuse_synth :dark_ambience\n4.times do\n  play :a3, release: 3\n  sleep 3\n  play :e4, release: 3\n  sleep 3\n  play :c5, release: 3\n  sleep 3\nend\nin_thread do\n  3.times do\n    play :g3, release: 5\n    sleep 5\n    play :d4, release: 5\n    sleep 5\n  end\nend"
+    },
+    {
+      "mood": "Melancholic",
+      "genre": "Blues",
+      "duration": "1 minute",
+      "code": "use_bpm 60\nuse_synth :hollow\nin_thread do\n  4.times do\n    play :c4, release: 2\n    sleep 2\n    play :eb4, release: 2\n    sleep 2\n    play :g4, release: 2\n    sleep 2\n  end\nend\nin_thread do\n  3.times do\n    play :f4, release: 2\n    sleep 2\n    play :g4, release: 2\n    sleep 2\n  end\nend"
+    },
+    {
+      "mood": "Energetic",
+      "genre": "Techno",
+      "duration": "1 minute",
+      "code": "use_bpm 150\nuse_synth :prophet\n4.times do\n  play :d5, release: 0.1\n  sleep 0.25\n  play :a5, release: 0.1\n  sleep 0.25\nend\nin_thread do\n  6.times do\n    play :c6, release: 0.15\n    sleep 0.2\n    play :f6, release: 0.15\n    sleep 0.2\n  end\nend"
+    },
+    {
+      "mood": "Peaceful",
+      "genre": "New Age",
+      "duration": "1 minute",
+      "code": "use_bpm 50\nuse_synth :pretty_bell\n4.times do\n  play :e4, release: 3\n  sleep 3\n  play :g4, release: 3\n  sleep 3\nend\nin_thread do\n  3.times do\n    play :b4, release: 2\n    sleep 2\n    play :d5, release: 2\n    sleep 2\n  end\nend"
+    }
+  ]
+}
