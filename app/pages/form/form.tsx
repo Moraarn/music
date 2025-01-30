@@ -74,7 +74,7 @@ const SongForm = () => {
           <Label htmlFor="tempo">What tempo do you want the song to have?</Label>
           <Slider
             value={[tempo]}
-            onChange={setTempo}
+            onValueChange={(value) => setTempo(value[0])}
             min={1}
             max={10}
             step={1}
