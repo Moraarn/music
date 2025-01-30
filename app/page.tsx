@@ -17,6 +17,7 @@ import {
   Shuffle,
   VolumeX,
 } from "lucide-react";
+import Link from "next/link";
 
 interface Song {
   id: number;
@@ -206,7 +207,17 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-primary/5 to-secondary p-8">
+    <div className="min-h-screen bg-gradient-to-br from-background via-primary/5 to-secondary p-8 relative">
+      {/* Create Song Button */}
+      <Link href="/pages/form" passHref>
+        <Button
+          size="lg"
+          variant="secondary"
+          className="absolute top-8 right-8 z-10 px-6 py-2"
+        >
+          Create Song
+        </Button>
+      </Link>
       <div className="max-w-6xl mx-auto space-y-8">
         <div className="text-center space-y-4">
           <h1 className="text-5xl font-bold tracking-tight bg-gradient-to-r from-primary to-primary/50 bg-clip-text text-transparent">
